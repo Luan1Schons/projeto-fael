@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.p-3 {
+    margin: 3px;
+    padding: 3px;
+}
+
+.p-6 {
+    margin: 6px;
+    padding: 6px;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.box-button-login {
+    padding: 0.5rem;
+}
+
+.box-button-save {
+    padding: 0.5rem;
+}
+
+.input {
+    padding: 0.5rem;
+}
+
+
+.input-1 {
+    padding: 0.2rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 5px 9px 9px -7px rgb(0 0 0 / 16%);
+    -webkit-box-shadow: 5px 9px 9px -7px rgb(0 0 0 / 16%);
+    -moz-box-shadow: 5px 9px 9px -7px rgb(0 0 0 / 16%);
+    border-radius: 15px;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-4 {
+    width: 33.333333%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-10 {
+    width: 83.333333%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.col-offset-1 {
+    margin-left: 8.333333%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.333333%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-10 {
+    margin-left: 83.333333%;
+}
+
+.col-offset-12 {
+    margin-left: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.btn-info {
+    background-color: #2c2cffab;
+    padding: 0.35rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #008a22ab;
+    padding: 0.35rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #2c2cffd9;
+    padding: 0.35rem;
+    border-radius: 10%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.bg-blue {
+    background-color: #2c2cffab !important;
+}
+
+.bg-red {
+    background-color: #ff2c2cab !important;
+}
+
+.bg-yellow {
+    background-color: #ffbe2cab !important;
+}
+
+.bg-selected {
+    background-color: #000000ab;
+}
+
+.bg-gray {
+    background-color: #ededed;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-red {
+    color: #ff2c2c !important;
+}
+
+.text-green {
+    color: #008a22 !important;
+}
+
+.rounded-md {
+    border-radius: 5%;
+}
+
+.rounded-lg {
+    border-radius: 20%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr-1 {
+    margin-right: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.perfil {
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.thead {
+    background-color: #545454;
+    color: #fff;
+}
+
+.bg-selected>a:link {
+    color: #ffffff;
+}
+
+.bg-selected>a:visited {
+    color: #ffffff;
+}
+
+.bg-selected>a:hover {
+    color: #ffffff;
+}
+
+.bg-selected>a:active {
+    color: #ffffff;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 2px #2e2e2e;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #2e2e2e;
+    opacity: 1;
+    /* Firefox */
+}
+
+tr>td {
+    padding: 5px;
+    text-align: center;
+}
+
+.calcule>tr>td:nth-child(4) {
+    background-color: #2e2e2e;
+}
+
+.calcule>tr>td:nth-child(5) {
+    background-color: #ceb902;
+}
+
+.calcule>tr>td:nth-child(6) {
+    background-color: #43ce02;
+}
+
+.calcule>tr>td:nth-child(9) {
+    background-color: #43ce02;
+}
+
+.calcule>tr>td:nth-child(10) {
+    background-color: #0249ce;
+}
